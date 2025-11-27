@@ -69,6 +69,12 @@
           UNSPLASH_API_KEY = 'AbCdEfGhIjKlMnOpQrStUvWxYz1234567890AbCdEf'
           
           CONTENTFUL_PERSONAL_ACCESS_TOKEN = 'CFPAT-AbCdEfGhIjKlMnOpQrStUvWxYz1234567890AbCd'
+
+          [default]
+          aws_access_key_id = AKIAX24QKKOLDCHEGJBG
+          aws_secret_access_key = 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
+          output = json
+          region = us-east-2
           
           RAPID_API_KEY: ${{ secrets.a1b2c3d4e5f678901234567890abcdef12345678 }}
 
